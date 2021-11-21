@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  height: 30vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.field {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.field:not(:first-child) {
+  margin-left: 20px;
+}
+.value,
+.label {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.label {
+  font-weight: lighter;
+  font-size: 2em;
+}
+.danger {
+  color: #000;
+}
